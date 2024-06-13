@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guanlin Qian - Professional Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #0779e4 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: #0779e4 1px solid;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Guanlin Qian</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Motivated and analytical professional with experience in model developing, testing, database management, and evaluating dashboards. Data mining specialist proficient in SQL, Python, and Tableau. Additional growing fluency in AIGC and cybersecurity. Focused collaborator dedicated to interdisciplinary communication.</p>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>Experience</h2>
+        <h3>Didi Chuxing Technology Co. - Data Analyst Intern</h3>
+        <p>Enhanced public bike initiatives across 200 cities in China through precise data analysis and visualization using SQL and Python. Identified a 15% income disparity in targeted provinces, proposed effective marketing solutions, resulting in a 7% income increase, showcasing practical application of machine learning concepts.</p>
+
+        <h3>Kuaishou Tech - Human Resources Intern</h3>
+        <p>Refined organizational and collaborative skills by managing interviews, re-examinations, and staffing alignment with regional development needs, handling over 30 cases daily. Collaborated with Talent Development to design and implement targeted training programs, leveraging data science expertise to uncover trends in employee movement and contributing to the retention of over 20 employees across 200 cases.</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>SQL (advanced querying techniques, joins, aggregations)</li>
+            <li>Python (pandas, matplotlib)</li>
+            <li>Tableau (interactive dashboards)</li>
+            <li>Machine Learning (ensemble methods, random forests, gradient boosting)</li>
+            <li>Data Mining (association rule mining, sequential pattern mining)</li>
+            <li>Excel (pivot tables, conditional formatting, data validation)</li>
+            <li>Java, JavaScript</li>
+            <li>Database Management Systems (DBMS)</li>
+            <li>Deep Learning (DL)</li>
+            <li>MongoDB</li>
+            <li>Cybersecurity</li>
+            <li>AIGC</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:guanlin@example.com">guanlin@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/guanlinqian">linkedin.com/in/guanlinqian</a></p>
+    </section>
+
+    <footer>
+        <p>Guanlin Qian &copy; 2024</p>
+    </footer>
+</body>
+</html>
